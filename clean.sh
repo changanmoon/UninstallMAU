@@ -23,7 +23,7 @@ function delete() {
     sudo test -e "$1" && sudo rm -rf "$1"
 }
 
-# Delete application supoort
+# Delete application support folders
 delete /Library/PrivilegedHelperTools/com.microsoft.autoupdate.helper
 delete /Library/Application\ Support/Microsoft/MAU2.0
 delete ~/Library/Application\ Support/Microsoft\ AutoUpdate
