@@ -1,5 +1,5 @@
 # UninstallMAU
-A tool to uninstall Microsoft AutoUpdate on macOS. Created with Packages (http://s.sudre.free.fr/Software/Packages/about.html).
+An easy way to uninstall Microsoft AutoUpdate on macOS. Created with [Packages](http://s.sudre.free.fr/Software/Packages/about.html).
 
 # Why does it use .pkg format?
 This project only uses a shell script to delete Microsoft AutoUpdate, and it doesn't modify other parts of the system.
