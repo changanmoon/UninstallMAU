@@ -49,6 +49,12 @@ delete ~/Library/HTTPStorages/com.microsoft.autoupdate2
 delete /Library/LaunchDaemons/com.microsoft.autoupdate.helper.plist
 delete /Library/LaunchAgents/com.microsoft.update.agent.plist
 
+# Remove Microsoft Office Licensing helper
+delete /Library/LaunchDaemons/com.microsoft.office.licensingV2.helper.plist
+
+# Remove OneDrive SyncReporter
+delete /Library/LaunchAgents/com.microsoft.SyncReporter.plist
+
 # Ending
 sudo killall Finder; killall Dock
 exit
