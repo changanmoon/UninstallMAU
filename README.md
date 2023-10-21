@@ -14,7 +14,7 @@ To find the shell script, see `clean.sh` in the code above.
 3. Done.
 
 # Do I need to quit Microsoft apps before "installation"?
-Of course - if any Microsoft app runs in the background, the installer will not let you continue. (This is necessary to avoid conflict)
+Of course. If any Microsoft app runs in the background, the installer will NOT let you continue. (This is necessary to avoid potential conflict)
 
 For example: </br>
 
