@@ -1,4 +1,4 @@
-name: Bug report
+name: Bug Report
 description: Report bugs related to this project.
 labels: [Bug]
 
@@ -54,13 +54,9 @@ body:
        label: Acknowledgements
        description: Before submitting this issue, please check again. Your issue may be **CLOSED AS UNPLANNED** if you don't follow the checklist below! 
        options:
-          - label: I have chosen an appropriate title.
+          - label: I agree that this issue is solely related to this project.
             required: true
-          - label: All requested information has been provided properly.
+          - label: I agree that this issue is not a feature request, nor a duplicate of an existing issue.
             required: true
-          - label: This is not a feature request (instead you should choose "Feature Request").
-            required: true
-          - label: This issue is not a duplicate of an existing issue.
-            required: true
-          - label: The issue is solely related to this project.
+          - label: I've chosen an appropriate title for this issue and all requested information has been provided correctly.
             required: true
