@@ -6,7 +6,7 @@ body:
   - type: textarea
     attributes:
         label: Feature Request
-        description: Provide the feature that you would like to request on this project.
+        description: Provide the feature that you would like to request on this project.\n(Please don't include any code—if you want to make contribution to this project, making a pull request would be better.)
     validations:
         required: true
 
