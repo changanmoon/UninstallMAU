@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2022-2023 Tiffany Feng
+# Copyright 2022-2024 Tiffany Fung
 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -54,6 +54,11 @@ delete /Library/LaunchDaemons/com.microsoft.office.licensingV2.helper.plist
 
 # Remove OneDrive SyncReporter
 delete /Library/LaunchAgents/com.microsoft.SyncReporter.plist
+
+# Remove OneDrive StandaloneUpdater and its daemon
+delete /Library/LaunchAgents/com.microsoft.OneDriveStandaloneUpdater.plist
+delete /Library/LaunchDaemons/com.microsoft.OneDriveStandaloneUpdaterDaemon.plist
+delete /Library/LaunchDaemons/com.microsoft.OneDriveUpdaterDaemon.plist
 
 # Ending
 sudo killall Finder; killall Dock
