@@ -18,4 +18,11 @@ Of course. If any Microsoft app runs in the background, the installer will NOT l
 
 For example: </br>
 
-<img src="https://raw.githubusercontent.com/changanmoon/UninstallMAU/main/demo.png" alt="Example picture" width="500">
+<img src="https://raw.githubusercontent.com/changanmoon/UninstallMAU/main/demo1.png" alt="Example picture" width="500">
+
+# On macOS Sonoma and later...
+You may get this prompt: `"Installer.app" would like to access data from other apps.` 
+
+Please click "Allow", otherwise this script won't work!
+
+<img src="https://raw.githubusercontent.com/changanmoon/UninstallMAU/main/demo2.png" alt="Example picture" width="500">
