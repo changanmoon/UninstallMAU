@@ -63,6 +63,8 @@ delete /Library/LaunchAgents/com.microsoft.OneDriveStandaloneUpdater.plist
 delete /Library/LaunchDaemons/com.microsoft.OneDriveStandaloneUpdaterDaemon.plist
 delete /Library/LaunchDaemons/com.microsoft.OneDriveUpdaterDaemon.plist
 
-# Ending
+# Ending (Cleanup and restart Finder & Dock)
+sudo pkgutil --forget com.microsoft.package.Microsoft_AutoUpdate.app
+sudo pkgutil --forget com.changanmoon.pkg.UninstallMicrosoftAutoUpdate
 sudo killall Finder; killall Dock
 exit
