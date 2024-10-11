@@ -34,16 +34,19 @@ delete ~/Library/Preferences/com.microsoft.autoupdate2.plist
 delete ~/Library/Preferences/com.microsoft.autoupdate.fba.plist
 
 # Remove containers
-delete ~/Library/Group\ Containers/UBF8T346G9.ms
+delete ~/Library/Group\ Containers/UBF8T346G9.ms/com.microsoft.autoupdate2
+delete ~/Library/Group\ Containers/UBF8T346G9.ms/MerpTempItems
+delete ~/Library/Group\ Containers/UBF8T346G9.ms/Microsoft AutoUpdate.MERP.params.txt
 delete ~/Library/Group\ Containers/UBF8T346G9.office
 
 # Remove cache and log files
 delete /private/var/db/receipts/com.microsoft.package.Microsoft_AutoUpdate.app.bom
 delete /private/var/db/receipts/com.microsoft.package.Microsoft_AutoUpdate.app.plist
-delete /Library/Logs/Microsoft
-delete ~/Library/Caches/com.microsoft.autoupdate.fba
 delete ~/Library/Caches/com.microsoft.autoupdate2
+delete ~/Library/Caches/com.microsoft.autoupdate.fba
+delete ~/Library/Caches/Microsoft/uls/com.microsoft.autoupdate2
 delete ~/Library/HTTPStorages/com.microsoft.autoupdate2
+delete /Library/Logs/Microsoft
 
 # Remove startup items
 delete /Library/LaunchDaemons/com.microsoft.autoupdate.helper.plist
