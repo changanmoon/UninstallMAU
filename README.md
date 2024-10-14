@@ -9,7 +9,7 @@ In case some people have little knowledge of shell script, I packed it in a .pkg
 To find the shell script, see `clean.sh` in the code above. 
 
 # How to use this?
-1. Download the **latest** release of UninstallMAU (.pkg format);
+1. Download [the **latest** release](https://github.com/changanmoon/UninstallMAU/releases) of UninstallMAU (.pkg format);
 2. Double-click it and perform an "install";
 3. Done.
 
